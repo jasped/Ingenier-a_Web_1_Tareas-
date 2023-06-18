@@ -1,0 +1,8 @@
+body {
+    background: rgb(243, 242, 242);
+    margin: 0%;
+}
+
+.emensajeError {
+    color: red;
+}

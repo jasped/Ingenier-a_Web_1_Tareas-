@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documento</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+
+    <nav>
+        <div>
+
+            <img src="logoApp.svg" alt="Logo">
+        </div>
+    </nav>
+    <div>&nbsp;</div>
+    <div class="container" style="border: 3px solid red; max-width: 90%;margin: auto; margin-top: 10px;">
+        <form autocomplete="on" style="border: 3px solid green;max-width: 400px;margin: auto;margin-top: 10px;background: rgba(1, 88, 88, 0.39);">
+
+
+            <input type="text" id="nombre" name="name" placeholder="Name">
+            <label for="nombre">Name: </label>
+            <p></p>
+
+            <input type="number" id="precio" name="Price" placeholder="Price">
+            <label for="precio">Price: </label>
+            <p class="mensajeError"></p>
+
+            <input type="number" id="inventario" name="Inventory" placeholder="Inventory">
+            <label for="inventario">Inventory: </label>
+            <p>Dato del inventario no valido</p>
+
+            <input type="submit" value="Create product">
+            <input type="reset" value="Limpiar">
+
+            <input type="checkbox">
+            <label for="termsAndConditions">He leido y acepto los </label><a href="#">Terminos y Condiciones </a>
+            <input type="submit" value="Enviar">
+        </form>
+    </div>
+</body>
+
+</html>
